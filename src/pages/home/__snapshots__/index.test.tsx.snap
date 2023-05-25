@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage Jest Snapshot testing suite renders correctly 1`] = `
+<div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      name="add-item"
+      onChange={[Function]}
+      pattern=".{3,20}"
+      placeholder="Add New Item "
+      required={true}
+      title="3 characters minimum and 20 maximum"
+      type="text"
+      value=""
+    />
+    <button
+      type="submit"
+    >
+      Add
+    </button>
+  </form>
+  <ul />
+</div>
+`;

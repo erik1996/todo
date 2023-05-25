@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Item Snapshot testing for IN_PROGRESS status renders correctly 1`] = `
+<li
+  className="item-container"
+  style={
+    Object {
+      "background": "blue",
+    }
+  }
+>
+  <span>
+    New Item
+  </span>
+  <select
+    aria-label="status"
+    onChange={[Function]}
+  >
+    <option
+      value="To DO"
+    >
+      To DO
+    </option>
+    <option
+      value="In Progress"
+    >
+      In Progress
+    </option>
+    <option
+      value="Done"
+    >
+      Done
+    </option>
+  </select>
+  <button
+    onClick={[Function]}
+  >
+    Remove
+  </button>
+</li>
+`;
+
+exports[`Item Snapshot testing for TO_DO status renders correctly 1`] = `
+<li
+  className="item-container"
+  style={
+    Object {
+      "background": "yellow",
+    }
+  }
+>
+  <span>
+    New Item
+  </span>
+  <select
+    aria-label="status"
+    onChange={[Function]}
+  >
+    <option
+      value="To DO"
+    >
+      To DO
+    </option>
+    <option
+      value="In Progress"
+    >
+      In Progress
+    </option>
+    <option
+      value="Done"
+    >
+      Done
+    </option>
+  </select>
+  <button
+    onClick={[Function]}
+  >
+    Remove
+  </button>
+</li>
+`;
